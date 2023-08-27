@@ -7,6 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="Licencia"></a>
 </p>
 
+## Acerca del proyecto
+
+Es un proyecto en Laravel simple con el objetivo de crear una RESTful API para otro sector del proyecto el cual fue montado en Vue.js, el proyecto será lo mas estandar posible para dejar en el mínimo los problemas ya que voy a montarlo mas adelante en docker, ahora agrego el resto del readme.md original de Laravel.
+
 ## Acerca de Laravel
 
 Laravel es un framework de aplicación web con una sintaxis expresiva y elegante. Creemos que el desarrollo debe ser una experiencia placentera y creativa para ser verdaderamente satisfactoria. Laravel simplifica el desarrollo al facilitar tareas comunes utilizadas en muchos proyectos web, tales como:
