@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\API\V_1\CustomerController;
+use App\Http\Controllers\API\V_1\InvoiceController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -24,5 +25,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 // API/V_1/<Endpoint>
 Route::group(['prefix' => 'V_1', 'namespace' => 'App\Http\Controllers\API\V_1'], function () {
     Route::apiResource('customers', CustomerController::class); //Si no me equivoco ésto hará que al usar el endpoint 'customers' ejecutará el controlador de ésta, falta info
-    Route::apiResource('invoices', CustomerController::class);
+    Route::apiResource('invoices', InvoiceController::class);
 }); //La lógica es que como todos nuestros controladores de V_1 se encuentran en el mismo lugar podemos determinar namespace así
